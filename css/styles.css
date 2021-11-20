@@ -80,17 +80,28 @@ header {
   text-decoration: none;
 }
 
+.nav-contacts {
+  text-align: right;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
 }
-/* Active page color */
+
 .nav-link.current-page {
   color: var(--accent-color);
 }
 
+.nav {
+  text-align: center;
+}
+
+.nav > li {
+  display: inline-block;
+}
 /* Hero */
 
 .hero {
@@ -121,7 +132,7 @@ header {
   color: var(--main-color);
   background-color: var(--accent-color);
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -131,6 +142,9 @@ header {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  border: none;
+  padding: 10px 31px;
 }
 
 /* About us */
@@ -150,8 +164,9 @@ header {
 }
 
 .us-benefits > li {
-  display: inline-block;
+  text-align: left;
 
+  display: inline-block;
   width: 275px;
   height: 70px;
   padding: 50px;
@@ -160,6 +175,7 @@ header {
 
 .us-benefits {
   text-align: center;
+  margin: 30px;
 }
 
 /* Our work */
@@ -175,6 +191,8 @@ header {
 
 .ourwork-pictures {
   display: inline-block;
+
+  margin: 30px;
 }
 
 .ourwork-allign {
@@ -214,10 +232,11 @@ header {
 
 .team-block {
   display: inline-block;
-  align-items: center;
+  margin: 10px;
 }
 .team-work {
   text-align: center;
+  margin: 50px;
 }
 
 /* footer */
@@ -266,4 +285,42 @@ footer a {
 .project-filter {
   font-size: 16px;
   line-height: 1.88;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-list {
+  display: inline-block;
+  padding: 50px;
+}
+
+/* Filter */
+
+.filter-button {
+  color: var(--headline-color);
+  background-color: var(--bg-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  border: none;
+  padding: 18px 22px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
+
+.filter {
+  text-align: center;
 }
