@@ -35,7 +35,6 @@ body {
   background-color: var(--main-color);
 
   font-family: 'roboto', sans-serif;
-  font-weight: 400;
   letter-spacing: 0.03em;
 }
 
@@ -87,11 +86,17 @@ header {
 .contact:focus {
   color: var(--accent-color);
 }
+/* Active page color */
+.nav-link.current-page {
+  color: var(--accent-color);
+}
 
 /* Hero */
 
 .hero {
   background-color: var(--bg-alternate-color);
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 .hero h1 {
@@ -190,6 +195,11 @@ header {
 
 footer {
   background-color: var(--bg-alternate-color);
+
+  padding-left: 215px;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-bottom: -50px;
 }
 
 footer .logo {
@@ -199,6 +209,7 @@ footer .logo {
 footer address {
   color: var(--main-color);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -210,7 +221,9 @@ footer a {
   line-height: 1.71;
 }
 
-/* Portffolio */
+/* Portffolio page */
+
+/* Projects */
 
 .project-title {
   color: var(--headline-color);
