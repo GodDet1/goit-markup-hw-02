@@ -106,13 +106,13 @@ header {
   padding-top: 200px;
 }
 
-.button {
+.hero-button {
   display: flex;
   justify-content: center;
   padding-bottom: 210px;
 }
 
-.button button {
+.hero-button button {
   color: var(--main-color);
   background-color: var(--accent-color);
 
