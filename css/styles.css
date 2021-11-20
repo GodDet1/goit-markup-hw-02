@@ -149,6 +149,19 @@ header {
   line-height: 1.71;
 }
 
+.us-benefits > li {
+  display: inline-block;
+
+  width: 275px;
+  height: 70px;
+  padding: 50px;
+  margin: 30px;
+}
+
+.us-benefits {
+  text-align: center;
+}
+
 /* Our work */
 
 .ourwork h2 {
@@ -157,6 +170,14 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17px;
+  text-align: center;
+}
+
+.ourwork-pictures {
+  display: inline-block;
+}
+
+.ourwork-allign {
   text-align: center;
 }
 
@@ -188,6 +209,14 @@ header {
 
   /* identical to box height - what is that ? */
 
+  text-align: center;
+}
+
+.team-block {
+  display: inline-block;
+  align-items: center;
+}
+.team-work {
   text-align: center;
 }
 
