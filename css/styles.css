@@ -210,3 +210,17 @@ footer a {
 }
 
 /* Portffolio */
+
+.project-title {
+  color: var(--headline-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-filter {
+  font-size: 16px;
+  line-height: 1.88;
+}
