@@ -65,15 +65,31 @@ li {
 
 .nav-link {
   color: var(--headline-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+
+  margin: 30px;
 }
 
 .contact {
   color: var(--text-color);
   text-decoration: none;
+
+  margin: 30px;
 }
 
 .nav-contacts {
   text-align: right;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  padding-right: 30px;
 }
 
 .nav-link:hover,
@@ -96,6 +112,7 @@ li {
 .nav > li {
   display: inline-block;
 }
+
 /* Hero */
 
 .hero {
