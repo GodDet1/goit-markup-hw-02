@@ -321,3 +321,7 @@ footer a {
 .filter {
   text-align: center;
 }
+
+.filter > li {
+  display: inline-block;
+}
